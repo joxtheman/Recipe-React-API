@@ -3,7 +3,7 @@ import "./App.css";
 import Form from "./components/Form";
 import Recipes from "./components/Recipes";
 
-const API_KEY = "3d8f36e66758eebc84d01d4939e586e7";
+const API_KEY = "Your API key";
 
 // we fake to be like live server on the Internet with this URL that we will inject
 // in api_call: https://cors-anywhere.herokuapp.com/
