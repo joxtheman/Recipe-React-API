@@ -5,8 +5,8 @@ import Recipes from "./components/Recipes";
 
 const API_KEY = "Your API key";
 
-// we fake to be like live server on the Internet with this URL that we will inject
-// in api_call: https://cors-anywhere.herokuapp.com/
+// we fake localhost to be like real live server on the Internet with this URL(https://cors-anywhere.herokuapp.com/) that we will inject
+// in api_call, in order async/await to work correctly with this recipe website.
 
 class App extends Component {
   state = {
